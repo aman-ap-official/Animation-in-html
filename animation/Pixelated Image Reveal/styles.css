@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.loading-image {
+    width: 150px;
+    filter: blur(10px); /* Start fully blurred */
+    transition: filter 3s ease-out;
+}
+
+.loading-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #0077ff;
+}

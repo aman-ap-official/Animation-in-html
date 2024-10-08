@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3f3f3, #eaeaea);
+    font-family: Arial, sans-serif;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.liquid-container {
+    width: 100px;
+    height: 200px;
+    border: 5px solid #0077ff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.liquid {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #0077ff;
+    animation: fillUp 4s ease-in-out forwards;
+}
+
+.loading-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #0077ff;
+}
+
+@keyframes fillUp {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
