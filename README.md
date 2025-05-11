@@ -58,8 +58,12 @@ This repository showcases a wide range of animated effects — from text transfo
 
 To run this project locally:
 
-1. **Clone the Repository**:
+1. *Clone the Repository*:
    ```bash
    git clone https://github.com/aman-ap-official/html-animations.git
    cd html-animations
    open index.html
+
+   <p align="center">
+  Made with ❤ by <a href="https://github.com/aman-ap-official">Aman AP</a>
+</p>
